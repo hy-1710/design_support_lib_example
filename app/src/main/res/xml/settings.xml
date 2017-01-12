@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.PreferenceCategory android:title="@string/about_category">
+        <android.support.v7.preference.Preference
+            android:key="@string/build_key"
+            android:summary="@string/build_summary"
+            android:title="@string/build_title" />
+        <android.support.v7.preference.Preference
+            android:key="@string/organization_key"
+            android:summary="@string/organization_summary"
+            android:title="@string/organization_title" />
+    </android.support.v7.preference.PreferenceCategory>
+    <android.support.v7.preference.PreferenceCategory android:title="@string/contact_category">
+        <android.support.v7.preference.Preference
+            android:key="@string/contact_key"
+            android:summary="@string/contact_summary"
+            android:title="@string/contact_title" />
+    </android.support.v7.preference.PreferenceCategory>
+    <android.support.v7.preference.PreferenceCategory android:title="@string/social_category">
+        <android.support.v7.preference.Preference
+            android:icon="@drawable/ic_share_white_24dp"
+            android:key="@string/share_key"
+            android:title="@string/share_title" />
+        <android.support.v7.preference.Preference
+            android:icon="@drawable/ic_star_border_white_24dp"
+            android:key="@string/rate_key"
+            android:title="@string/rate_title" />
+        <android.support.v7.preference.Preference
+            android:icon="@drawable/ic_get_app_white_24dp"
+            android:key="@string/more_apps_key"
+            android:title="@string/more_apps_title" />
+    </android.support.v7.preference.PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>

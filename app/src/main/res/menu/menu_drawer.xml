@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.gripxtech.designsupportlibdemo.activities.MainActivity">
+    <group
+        android:id="@+id/action_group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_games"
+            android:icon="@drawable/ic_games_black_24dp"
+            android:title="@string/action_games" />
+        <item
+            android:id="@+id/action_music"
+            android:icon="@drawable/ic_library_music_black_24dp"
+            android:title="@string/action_music" />
+        <item
+            android:id="@+id/action_movies"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:title="@string/action_movies" />
+    </group>
+    <group
+        android:id="@+id/action_group2"
+        android:checkableBehavior="none">
+        <item android:title="@string/action_settings">
+            <menu>
+                <item
+                    android:id="@+id/action_settings"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="@string/action_settings" />
+            </menu>
+        </item>
+    </group>
+</menu>
